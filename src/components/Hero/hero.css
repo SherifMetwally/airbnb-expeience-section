@@ -1,0 +1,11 @@
+.container {
+    padding: 30px;
+    
+}
+
+.hero-img {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    display: block;
+}
