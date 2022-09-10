@@ -5,7 +5,7 @@ export default function Card(props) {
   return (
     <div className="container hero">
        {props.openSpots === 0 && <div className="count-label"> Sold Out </div> }
-       {props.openSpots != 0 && props.location === 'Online' && <div className="count-label"> {props.location} </div>}
+       {props.openSpots !== 0 && props.location === 'Online' && <div className="count-label"> {props.location} </div>}
        <img className="hero-image"  src={`../../images/${props.coverImg}`} alt=""/>
       <div className="hero-rating" >
       <img src={`../../images/Star 1.png`} alt="rating" />
